@@ -77,7 +77,7 @@ var shapePoints = map[shape]int{
 	scissors: 3,
 }
 
-func Two(input string) ([]interface{}, error) {
+func Two(input string) ([2]interface{}, error) {
 	totalScore := 0
 	totalScoreRealRules := 0
 
@@ -93,5 +93,5 @@ func Two(input string) ([]interface{}, error) {
 		totalScoreRealRules += realMeMap[me] + shapePoints[myShape]
 	}
 
-	return []interface{}{totalScore, totalScoreRealRules}, nil
+	return [2]interface{}{totalScore, totalScoreRealRules}, nil
 }

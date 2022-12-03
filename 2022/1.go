@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func One(input string) ([]interface{}, error) {
+func One(input string) ([2]interface{}, error) {
 	mostCals := 0
 	mostCalsArray := [3]int{0, 0, 0}
 
@@ -30,7 +30,7 @@ func One(input string) ([]interface{}, error) {
 
 	topThreeCals := mostCalsArray[0] + mostCalsArray[1] + mostCalsArray[2]
 
-	return []interface{}{mostCals, topThreeCals}, nil
+	return [2]interface{}{mostCals, topThreeCals}, nil
 }
 
 func handleTopThreeCals(array *[3]int, cals int) {
