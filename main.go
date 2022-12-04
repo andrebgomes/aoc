@@ -20,6 +20,7 @@ var functions = map[int]map[int]dayFunc{
 		1: twok.One,
 		2: twok.Two,
 		3: twok.Three,
+		4: twok.Four,
 	},
 }
 
