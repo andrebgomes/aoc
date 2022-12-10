@@ -25,6 +25,7 @@ var functions = map[int]map[int]dayFunc{
 		6: twok.Six,
 		7: twok.Seven,
 		8: twok.Eight,
+		9: twok.Nine,
 	},
 }
 

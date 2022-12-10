@@ -1,2 +1,4 @@
 aoc
 *.vscode
+*/inputs/*
+*/inputs/input.go
