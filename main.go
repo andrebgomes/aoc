@@ -17,15 +17,16 @@ type dayFunc func(string) ([2]interface{}, error)
 // functions include all implemented day funcs
 var functions = map[int]map[int]dayFunc{
 	2022: {
-		1: twok.One,
-		2: twok.Two,
-		3: twok.Three,
-		4: twok.Four,
-		5: twok.Five,
-		6: twok.Six,
-		7: twok.Seven,
-		8: twok.Eight,
-		9: twok.Nine,
+		1:  twok.One,
+		2:  twok.Two,
+		3:  twok.Three,
+		4:  twok.Four,
+		5:  twok.Five,
+		6:  twok.Six,
+		7:  twok.Seven,
+		8:  twok.Eight,
+		9:  twok.Nine,
+		10: twok.Ten,
 	},
 }
 
